@@ -109,6 +109,16 @@ input, select, textarea {
     text-align: center;
 }
 
+
+.hover-image {
+    transition: transform 0.3s ease;
+}
+
+.hover-image:hover {
+    transform: scale(1.05);
+}
+
+
 /* Basic */
 
 	/*.chart-card {
