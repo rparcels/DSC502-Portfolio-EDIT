@@ -92,7 +92,7 @@ input, select, textarea {
 }
 
 .chart-card {
-	padding: 9em 0 9em 0 ;
+	padding: 2em 0 1em 0 ;
 	background-color: #4686a0;
 	color: rgba(255, 255, 255, 0.75);
 	background-attachment: fixed,							fixed,							fixed;
@@ -102,7 +102,7 @@ input, select, textarea {
 	overflow: hidden;
 	position: relative;
 	text-align: center;
-	border: 2px solid red;
+
 }
 
 
