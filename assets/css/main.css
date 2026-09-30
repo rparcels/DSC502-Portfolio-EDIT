@@ -253,7 +253,6 @@ input, select, textarea {
   		width: 98%;
   		height: 2px;
   		background: linear-gradient(to right, #ddd, #999, #ddd);
-		background: none;
   		margin: 2rem auto;
 		margin-left: auto;
 		margin-left: auto;
@@ -3585,5 +3584,22 @@ input, select, textarea {
 
 .chart-section.chart-card h3 {
     color: #ffffff;
+}
+
+.chart-section + hr {
+    background: transparent;
+}
+
+hr {
+    display: block;
+}
+
+hr {
+    background-color: transparent;
+}
+
+hr {
+    /* Force the hr to sit on a transparent background */
+    padding: 0;
 }
 
