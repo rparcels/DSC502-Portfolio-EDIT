@@ -2118,6 +2118,11 @@ input, select, textarea {
 		text-align: center;
 	}
 
+	header.major.no-divider:after {
+    display: none;
+	}	
+
+
 /* Form */
 
 	form {
