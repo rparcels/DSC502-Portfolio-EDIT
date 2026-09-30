@@ -3586,20 +3586,4 @@ input, select, textarea {
     color: #ffffff;
 }
 
-.chart-section + hr {
-    background: transparent;
-}
-
-hr {
-    display: block;
-}
-
-hr {
-    background-color: transparent;
-}
-
-hr {
-    /* Force the hr to sit on a transparent background */
-    padding: 0;
-}
 
