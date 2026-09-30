@@ -115,6 +115,7 @@ input, select, textarea {
     max-width: 900px;
     margin: 0 auto;
     text-align: center;
+	margin-bottom: 2rem;
 }
 
 .hover-image {
