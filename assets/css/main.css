@@ -247,12 +247,13 @@ input, select, textarea {
 		top: -0.5em;
 	}
 
+
 	hr {
   		border: 0;
   		width: 98%;
   		height: 2px;
-  		/*background: linear-gradient(to right, #ddd, #999, #ddd);*/
-		background: transparent;
+  		background: linear-gradient(to right, #ddd, #999, #ddd);
+		background: none;
   		margin: 2rem auto;
 		margin-left: auto;
 		margin-left: auto;
