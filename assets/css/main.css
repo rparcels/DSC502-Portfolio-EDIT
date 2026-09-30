@@ -105,6 +105,12 @@ input, select, textarea {
 
 }
 
+	.chart-card hr {
+    margin-top: 2rem;   /* adjust as needed */
+	}
+
+	
+
 .milestone-intro {
     text-align: center;
 	font-size: 1.5em;
