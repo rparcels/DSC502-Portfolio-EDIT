@@ -106,7 +106,7 @@ input, select, textarea {
 }
 
 	.chart-card hr {
-    margin-top: 2rem;   /* adjust as needed */
+    margin-top: 4rem;   /* adjust as needed */
 	}
 
 	
@@ -260,13 +260,13 @@ input, select, textarea {
   		width: 98%;
   		height: 2px;
   		background: linear-gradient(to right, #ddd, #999, #ddd);
-  		margin: 2rem auto;
+  		margin: 4rem auto;
 		margin-left: auto;
 		margin-left: auto;
 	}
 
 		hr.major {
-			margin: 3em auto;
+			margin: 4em auto;
 		}
 
 	blockquote {
