@@ -114,7 +114,6 @@ input, select, textarea {
 .milestone-intro {
     text-align: center;
 	font-size: 1.5em;
-	padding: 1rem 0;          /* shrink vertical space */
 }
 
 .analysis-text {
