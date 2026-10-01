@@ -114,7 +114,10 @@ input, select, textarea {
 .milestone-intro {
     text-align: center;
 	font-size: 1.5em;
-	
+	padding: 1rem 0;          /* shrink vertical space */
+    display: flex;            /* enable vertical centering */
+    align-items: center;      /* center vertically */
+    justify-content: center;  /* center horizontally */
 }
 
 .analysis-text {
@@ -130,6 +133,10 @@ input, select, textarea {
 
 .hover-image:hover {
     transform: scale(1.05);
+}
+
+.milestone-intro header.major:after {
+    display: none;
 }
 
 
@@ -3590,6 +3597,10 @@ input, select, textarea {
 	}
 
 .chart-section.chart-card h3 {
+    color: #ffffff;
+}
+
+.chart-section.chart-card h2 {
     color: #ffffff;
 }
 
