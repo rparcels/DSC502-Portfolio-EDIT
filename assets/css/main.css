@@ -3593,4 +3593,8 @@ input, select, textarea {
     color: #ffffff;
 }
 
+.python-img {
+    display: block;
+    margin: 0 auto;
+}
 
