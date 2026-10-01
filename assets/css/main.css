@@ -3599,3 +3599,12 @@ input, select, textarea {
 	width: 600px;
 }
 
+.analysis-text {
+    text-align: center;
+}
+
+.analysis-text img {
+    display: inline-block;
+    margin: 0 auto;
+}
+
