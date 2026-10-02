@@ -273,7 +273,8 @@ input, select, textarea {
 	}
 
 		hr.major {
-			margin: 4em auto;
+			margin-top: 4em ;
+			margin-bottom: 2rem;
 		}
 
 	blockquote {
