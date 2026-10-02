@@ -2912,6 +2912,10 @@ input, select, textarea {
 			background: #fff;
 		}
 
+		.main.style3 {
+			background: #f8f8f8;
+		}
+
 		.main.style2 {
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
@@ -2999,6 +3003,8 @@ input, select, textarea {
 			.main.style2 .icon.major {
 				color: #ffffff;
 			}
+
+
 
 /* Header */
 
