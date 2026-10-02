@@ -127,12 +127,13 @@ input, select, textarea {
 	margin-bottom: 2rem;
 }
 
-.hover-image {
+
+.image.fit img {
     transition: transform 0.3s ease;
 }
 
-.hover-image:hover {
-    transform: scale(1.05);
+.image.fit img:hover {
+    transform: scale(1.03);
 }
 
 .milestone-intro header.major:after {
