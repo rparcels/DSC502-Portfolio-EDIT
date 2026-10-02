@@ -143,6 +143,21 @@ input, select, textarea {
     padding-top: 1em;
 }
 
+.content-wrapper {
+    background:
+        linear-gradient(
+            135deg,
+            rgba(70,134,160,.08),
+            rgba(87,117,229,.08)
+        );
+
+    border-radius: 20px;
+
+    margin: 4rem auto;
+
+    padding: 4rem;
+}
+
 
 /* Basic */
 
