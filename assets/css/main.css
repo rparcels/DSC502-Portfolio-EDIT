@@ -139,6 +139,10 @@ input, select, textarea {
     display: none;
 }
 
+#portfolio {
+    padding-top: 2em;
+}
+
 
 /* Basic */
 
