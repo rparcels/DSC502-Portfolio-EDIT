@@ -1,4 +1,4 @@
-const fixedVisualizationSpec = {
+const Milestone2 = {
   "$schema": "https://vega.github.io/schema/vega-lite/v6.4.1.json",
 
   "autosize": {
@@ -133,4 +133,4 @@ const fixedVisualizationSpec = {
   ],
   "title": "Typical Caffeine Content by Beverage"
 };
-vegaEmbed('#fixedVisualization', fixedVisualizationSpec, { actions: false, resize: true });
+vegaEmbed('#Milestone2', Milestone2, { actions: false, resize: true });
