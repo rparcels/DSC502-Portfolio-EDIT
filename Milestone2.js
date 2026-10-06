@@ -133,4 +133,4 @@ const Milestone2 = {
   ],
   "title": "Typical Caffeine Content by Beverage"
 };
-vegaEmbed('#Milestone2', Milestone2, { actions: false, resize: true });
+vegaEmbed('#MS2', Milestone2, { actions: false, resize: true });
