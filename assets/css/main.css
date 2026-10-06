@@ -81,8 +81,9 @@ input, select, textarea {
     min-height: 400px;
 }
 
-#Milestone2 {
+#MS2 {
     min-height: 400px;
+	width: 100%;
 }
 
 #one p {
