@@ -173,6 +173,8 @@ input, select, textarea {
 .tableauPlaceholder {
     max-width: 1000px;   /* or whatever width you want */
     margin: 0 auto;      /* centers the whole chart */
+	border-radius: 16px;
+	overflow: hidden;
 }
 
 .tableauPlaceholder object {
