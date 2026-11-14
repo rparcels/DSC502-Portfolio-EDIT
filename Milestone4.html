@@ -1,5 +1,4 @@
 <!DOCTYPE HTML>
-
 <html>
 	<head>
 		<title>Milestone 4</title>
@@ -16,13 +15,13 @@
 			#one header.major:after {
         		display: none;
     		}
-			
 		</style>
 		<!-- Load vega libraries -->
 		<script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
    		<script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
     	<script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 	</head>
+	<body>
 	
 		<div class="milestone-intro">
 			<header class="major">
@@ -30,108 +29,58 @@
 			</header>
 		</div>
 
-				
-			<!--      -->
-			<div class="chart-section chart-card">
-				<h2>Introduction: </h2>
-			
-				<img src="images/DatawrapperLogo.png" alt="Datawrapper Image" class="image fit" style="display:block; margin:0 auto; width:30%;">
-			
-				<div class="analysis-text">
-					<p> - What Datawrapper is<br>
-						- What I'll build<br>
-						- Why I chose it<br>
-						- Brief comparison to Tableau/Vega-Lite <br>
-					</p>
-				</div>
-			</div>
-				
-				<script type="text/javascript">
-				    var divElement = document.getElementById("viz1791574209743");
-				    var vizElement = divElement.getElementsByTagName("object")[0];
-					    vizElement.style.width = "1000px";
-					    vizElement.style.height = "1227px";That
-				    var scriptElement = document.createElement("script");
-				    scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
-				    vizElement.parentNode.insertBefore(scriptElement, vizElement);
-				</script>
-
-
-				
-					<!-- <img src="images/badChart.png" alt="bad Chart Image" class="image fit" style="display:block; margin:0 auto; width:30%;"> -->
-				<p></p>
-				<div class="analysis-text">
-				<p> - What Datawrapper is<br>
-		            - What I'll build<br>
-		            - Why I chose it<br>
-		            - Brief comparison to Tableau/Vega-Lite <br>
+		<!-- Introduction Section -->
+		<div class="chart-section chart-card">
+			<h2>Introduction: </h2>
+		
+			<img src="images/DatawrapperLogo.png" alt="Datawrapper Image" class="image fit" style="display:block; margin:0 auto; width:30%;">
+		
+			<div class="analysis-text">
+				<p>
+					- What Datawrapper is<br>
+					- What I'll build<br>
+					- Why I chose it<br>
+					- Brief comparison to Tableau/Vega-Lite <br>
 				</p>
-				</div>
-
-				
-				<!-- Explanation -->
-			<div class="chart-section chart-card">
-				<p><br></p>
-				<h2> Find and Prepare Data: </h2>
-				<div class='tableauPlaceholder' id='viz1791681349880' style='position: relative'>
-					<noscript>
-						<a href='#'>
-							<img 
-								
-							/>
-						</a>
-					</noscript>
-					
-
-				</div>                
-				<script type='text/javascript'>                    
-					var divElement = document.getElementById('viz1791681349880');                    
-					var vizElement = divElement.getElementsByTagName('object')[0];                    
-
-					vizElement.style.width = "1000px";
-				    vizElement.style.height = "800px";
-					var scriptElement = document.createElement('script');                    
-					scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
-					vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-				</script>
-					
-				<!-- 	vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';   -->
-				
-				</div>
-				<p></p>
-				<div class="analysis-text">
-					<p> Choose a simple dataset with:
-		                - 10-50 rows<br>
-		                - One category field<br>
-		                - One numeric field<br>
-		                <br>
-		                Examples:<br>
-		                - Michigan county populations<br>
-		                - State median incomes<br>
-		                - EV registrations by state<br>
-		                - Coffee consumption by country<br>
-		                - NFL stadium attendance<br>
-		                <br>
-		                Tasks:<br>
-		                - Download CSV<br>
-		                - Open in Excel<br>
-		                - Verify column names<br>
-						<p></p>
- 
-					</p>
-				</div>
-				</div>
 			</div>
-	
+		</div>
 
+		<!-- Find and Prepare Data Section -->
+		<div class="chart-section chart-card">
+			<h2>Find and Prepare Data: </h2>
+			
+			<!-- Add an image or Datawrapper embed for this step here when ready -->
 
-				<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-	<!--<script src="Milestone3.js"></script> -->
+			<div class="analysis-text">
+				<p>
+					Choose a simple dataset with:<br>
+	                - 10-50 rows<br>
+	                - One category field<br>
+	                - One numeric field<br>
+	                <br>
+	                Examples:<br>
+	                - Michigan county populations<br>
+	                - State median incomes<br>
+	                - EV registrations by state<br>
+	                - Coffee consumption by country<br>
+	                - NFL stadium attendance<br>
+	                <br>
+	                Tasks:<br>
+	                - Download CSV<br>
+	                - Open in Excel<br>
+	                - Verify column names<br>
+				</p>
+			</div>
+		</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+		<!--<script src="Milestone3.js"></script> -->
 		
 	</body>
+</html>
