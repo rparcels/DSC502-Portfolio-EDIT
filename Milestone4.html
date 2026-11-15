@@ -15,7 +15,19 @@
 			#one header.major:after {
         		display: none;
     		}
+
+			/* Make tutorial links stand out clearly */
+			.chart-card a {
+				color: #0066cc;
+				text-decoration: underline;
+				font-weight: 600;
+			}
+			.chart-card a:hover {
+				color: #004499;
+				text-decoration: none;
+			}
 		</style>
+
 		<!-- Load vega libraries -->
 		<script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
    		<script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
@@ -68,10 +80,7 @@
 					<a href="https://www.census.gov/data/datasets/time-series/demo/popest/2020s-counties-total.html" target="_blank" rel="noopener noreferrer">U.S. Census Bureau Population Data</a>
 				</p>
 				<p style="margin-bottom: 0.5em;">
-					The dataset contains county names and population estimates for counties throughout Michigan. Before importing the data into Datawrapper, the file was opened in Excel and was confirmed to contain two columns: County and Population. The file was then saved as a CSV, which is one of the file formats supported by Datawrapper.
-				</p>
-				<p style="margin-bottom: 0.5em;">
-					The Dataset:
+					The dataset contains county names and population estimates for counties throughout Michigan. Before importing the data into Datawrapper, the file was opened in Excel and was confirmed to contain the expected data. The file was then saved as a XLSX, which is one of the file formats supported by Datawrapper.
 				</p>
 				<img src="images/CountyPopSpreadsheet.png" alt="Michigan County Population Spreadsheet" class="image fit" style="display: block; margin: 0; width: 100%;">
 			</div>
