@@ -148,22 +148,6 @@ input, select, textarea {
         0 10px 25px rgba(0,0,0,0.15);
 }
 
-.side-by-side-images {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 1.5em;
-    margin-top: 1.5em;
-}
-
-.side-by-side-images img {
-    width: 28%;
-    max-width: 275px;
-    margin: 0;
-}
-
-
-
 
 .milestone-intro header.major:after {
     display: none;
